@@ -1,0 +1,42 @@
+﻿D:\Viual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Basler.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Camera.cpp
+  yolov8_seg_onnx.cpp
+  yolov8_seg_utils.cpp
+  ytplc.cpp
+  ytplc_mitsubishi_mc.cpp
+  Basler.cpp
+  main.cpp
+D:\OpenCV\opencv\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 yolov8_seg_utils.cpp)
+D:\OpenCV\opencv\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 yolov8_seg_onnx.cpp)
+D:\Viual Studio\VC\Tools\MSVC\14.36.32532\include\numeric(34,26): warning C4244: “=”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+          and
+          [
+              _Ty=int
+          ] (编译源文件 yolov8_seg_onnx.cpp)
+D:\VS C++\Basler(release)\Basler\yolov8_seg_onnx.h(41,21): message : 查看对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<__int64>>>,int,std::multiplies<T>>(const _InIt,const _InIt,_Ty,_Fn)”的引用
+          with
+          [
+              _Ty=int,
+              T=int64_t,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int64_t>>>,
+              _Fn=std::multiplies<int64_t>
+          ] (编译源文件 yolov8_seg_onnx.cpp)
+D:\VS C++\Basler(release)\Basler\yolov8_seg_onnx.cpp(142,42): message : 查看对正在编译的函数 模板 实例化“T Yolov8SegOnnx::VectorProduct<int64_t>(const std::vector<int64_t,std::allocator<int64_t>> &)”的引用
+          with
+          [
+              T=int64_t
+          ]
+D:\OpenCV\opencv\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Camera.cpp)
+D:\VS C++\Basler(release)\Basler\yolov8_seg_onnx.cpp(165): warning C4715: “Yolov8SegOnnx::ReadModel”: 不是所有的控件路径都返回值
+D:\OpenCV\opencv\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Basler.cpp)
+D:\OpenCV\opencv\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+  qrc_Basler.cpp
+  moc_Basler.cpp
+  moc_Camera.cpp
+D:\OpenCV\opencv\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Debug\moc\moc_Camera.cpp)
+D:\OpenCV\opencv\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 x64\Debug\moc\moc_Basler.cpp)
+  Basler.vcxproj -> D:\VS C++\Basler(release)\x64\Debug\Basler(release).exe

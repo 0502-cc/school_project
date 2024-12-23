@@ -1,0 +1,39 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 199711L
+QMAKE_CXX.QMAKE_MSC_VER = 1936
+QMAKE_CXX.QMAKE_MSC_FULL_VER = 193632535
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_MSC_VER \
+    QMAKE_MSC_FULL_VER
+QMAKE_CXX.INCDIRS = \
+    D:\\OpenCV\\opencv\\build\\include \
+    D:\\OpenCV\\opencv\\build\\include\\opencv2 \
+    D:\\Basel\\Development\\include \
+    D:\\Basel\\Development\\include\\Base \
+    D:\\Basel\\Development\\include\\GenApi \
+    D:\\Basel\\Development\\include\\genapic \
+    D:\\Basel\\Development\\include\\pylon \
+    D:\\Basel\\Development\\include\\pylonc \
+    D:\\onnxruntime-win-x64-1.11.0\\include \
+    "D:\\Viual Studio\\VC\\Tools\\MSVC\\14.36.32532\\include" \
+    "D:\\Viual Studio\\VC\\Tools\\MSVC\\14.36.32532\\atlmfc\\include" \
+    "D:\\Viual Studio\\VC\\Auxiliary\\VS\\include" \
+    "D:\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt" \
+    "D:\\Viual Studio\\VC\\Auxiliary\\VS\\UnitTest\\include" \
+    "D:\\Windows Kits\\10\\Include\\10.0.22000.0\\um" \
+    "D:\\Windows Kits\\10\\Include\\10.0.22000.0\\shared" \
+    "D:\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt" \
+    "D:\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\Include\\um"
+QMAKE_CXX.LIBDIRS = \
+    D:\\Basel\\Development\\lib \
+    D:\\Basel\\Development\\lib\\x64 \
+    D:\\OpenCV\\opencv\\build\\x64\\vc16\\lib \
+    D:\\onnxruntime-win-x64-1.11.0\\lib \
+    "D:\\Viual Studio\\VC\\Tools\\MSVC\\14.36.32532\\lib\\x64" \
+    "D:\\Viual Studio\\VC\\Tools\\MSVC\\14.36.32532\\atlmfc\\lib\\x64" \
+    "D:\\Viual Studio\\VC\\Auxiliary\\VS\\lib\\x64" \
+    "D:\\Windows Kits\\10\\lib\\10.0.22000.0\\ucrt\\x64" \
+    "D:\\Viual Studio\\VC\\Auxiliary\\VS\\UnitTest\\lib" \
+    "D:\\Windows Kits\\10\\lib\\10.0.22000.0\\um\\x64" \
+    "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.7.2\\lib\\um\\x64"
